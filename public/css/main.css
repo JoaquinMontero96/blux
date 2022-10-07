@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none; }
 
 html {
@@ -11,39 +11,59 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #151515;
+  background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
-h1 {
-  font-family: "Inter Tight", sans-serif;
-  font-size: 5em;
-  font-weight: 900;
-  color: #df7700; }
+.header {
+  width: 100%;
+  height: 165px;
+  background-color: #1c262d;
+  background-color: rgba(28, 38, 45, 0.9);
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0; }
 
-h2 {
-  font-family: "Inter Tight", sans-serif;
-  font-size: 4em;
-  font-weight: 800;
-  color: #F6F8F8;
-  text-transform: uppercase; }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
 
-h3 {
-  font-family: "Inter Tight", sans-serif;
-  font-size: 2em;
-  font-weight: 700;
-  color: #F6F8F8; }
+.logo {
+  width: 260px;
+  height: auto; }
 
-h4 {
-  font-family: "Inter Tight", sans-serif;
-  font-size: 2em;
-  font-weight: 700;
-  color: #F6F8F8; }
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #f9f9f9; }
 
-p {
-  font-family: "Inter Tight", sans-serif;
-  font-size: 2em;
-  font-weight: 400;
-  color: #F6F8F8; }
+.red {
+  width: 30px;
+  height: auto;
+  margin: 15px; }
+
+.hero {
+  background-image: url("../img/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200vh;
+  position: relative;
+  z-index: -1; }
