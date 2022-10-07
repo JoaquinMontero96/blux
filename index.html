@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blux  |  Comunicación Visual</title>
     <link rel="stylesheet" href="public/css/main.css">
+    <link rel="shortcut icon" href="public/img/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
@@ -13,10 +14,10 @@
             <a href="index.html"><img src="public/img/logo.png" alt="" class="logo"></a>
             <nav class="nav">
                 <ul class="links">
-                    <li class="link">Inicio</li>
-                    <li class="link">Nosotros</li>
-                    <li class="link">Portfolio</li>
-                    <li class="link">Contacto</li>
+                    <li class="link"><a href="#">Inicio</a></li>
+                    <li class="link"><a href="#servicios">Nosotros</a></li>
+                    <li class="link"><a href="#container-portfolio">Portfolio</a></li>
+                    <li class="link"><a href="#">Contacto</a></li>
                 </ul>
             </nav>
             <div class="redes">
@@ -25,8 +26,8 @@
             </div>
         </div>
     </header>
-    <section class="hero">
-        <article class="servicios">
+    <section id="hero" class="hero">
+        <article id="servicios" class="servicios">
             <h2>"Pensando <span>IDEAS</span>, construyendo <span>IMÁGEN</span>"</h2>
             <div class="container">
                 <div class="servicios-card">
@@ -43,6 +44,50 @@
                 </div>
             </div>
         </article>
+    </section>
+    <section id="portfolio" class="porfolio">
+        <div id="container-portfolio" class="container-portfolio">
+            <div class="filaIzq">
+                <div class="portfolio-card">
+                    <img src="public/img/frida.jpg" alt="">
+                    <h4>Frida Coffee & Sweet's</h4>
+                </div>
+                <div class="portfolio-card">
+                    <img src="public/img/estudio3.jpg" alt="">
+                    <h4>Estudio 3 Constructora</h4>
+                </div>
+                <div class="portfolio-card">
+                    <img src="public/img/gove.jpg" alt="">
+                    <h4>GOVE</h4>
+                </div>
+                <div class="portfolio-card">
+                    <img src="public/img/cfd.jpg" alt="">
+                    <h4>CFD Estética Vehicular</h4>
+                </div>
+                <div class="portfolio-card">
+                    <img src="public/img/radiowave.jpg" alt="">
+                    <h4>Radio Wave</h4>
+                </div>
+            </div>
+            <div class="filaDer">
+                <div class="portfolio-card">
+                    <img src="public/img/pel.jpg" alt="">
+                    <h4>PEL Construcción y Mantenimiento</h4>
+                </div>
+                <div class="portfolio-card">
+                    <img src="public/img/gmeth.jpg" alt="">
+                    <h4>Gmeth Racing Fuels</h4>
+                </div>
+                <div class="portfolio-card">
+                    <img src="public/img/aime.jpg" alt="">
+                    <h4>Aimé Artesanias</h4>
+                </div>
+                <div class="portfolio-card">
+                    <img src="public/img/ryr.jpg" alt="">
+                    <h4>R&R Higiene Profesional</h4>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
