@@ -59,4 +59,5 @@ html{
 body{
 	background-color: $bgColor;
 	@include flex(column, center, center);
+	padding-bottom: 300px;
 }
